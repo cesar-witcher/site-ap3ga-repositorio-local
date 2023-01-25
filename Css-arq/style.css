@@ -1,0 +1,440 @@
+@keyframes animacao{
+    0% {background-color: rgb( 107, 184, 255);}
+    50% {background-color: rgb( 0, 100, 194)}
+    100% {background-color: rgb( 107, 0, 194)}
+    
+}
+.bodybackground{
+    
+    animation-name: animacao;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate-reverse;
+        
+}
+.conteiner1{
+    width: 1400px;
+    height: 180px;
+    border-radius: 5%;
+    margin-top: 0.050%;
+    background-image: linear-gradient(rgb(43, 43, 43),grey);
+    border-style: inset;
+    border-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 9999;
+    
+}
+
+.conteiner2{
+    border-radius: 5%;    
+    box-shadow: 50px;      
+    padding-top: 20%;   
+    margin-top: 1%; 
+    width: 1400px;
+    height: 400px;
+    border-style: inset;
+    box-shadow: 5px 5px black;
+    background-image:linear-gradient(grey,rgb(201, 201, 201));
+}
+.img1{
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: -15%;
+    border-style: solid;    
+    border-color: rgb(0, 0, 0);    
+}
+.legendadescriçao{   
+   
+    width: 150px;
+    height: 100px;
+    background-image:linear-gradient(rgb(0, 63, 122),rgb(0, 76, 175));
+    color: white;
+    font-size: 12px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 28%;
+    border-radius: 10%;
+} 
+.legendadescriçao:hover{
+    width: 300px;
+    height: 110px; 
+    transition: 1s;
+    font-size: 24px;
+    margin-left: 18%;
+}
+.img1:hover  {   
+    transition: 1s;
+    width: 350px;
+    height: 350px;  
+      
+}
+.conteiner3{
+    width: 1400px;
+    height: 400px;
+    background-color: grey;
+    margin-top: 3%;
+    border-radius: 10%;
+    border-style: inset;
+    box-shadow: 5px 3px rgb(46, 46, 46);
+    background-image:linear-gradient(grey,rgb(201, 201, 201));
+}
+.midias{
+    margin-left: 45%;
+}
+.conteinerservices{
+    border-radius: 5%;    
+    box-shadow: 50px;           
+    margin-top: 1%; 
+    margin-left: 20%;
+    width: 900px;
+    height: 600px;
+    border-style: inset;
+    box-shadow: 5px 5px black;
+    background-image:linear-gradient(grey,rgb(201, 201, 201));
+}
+
+.titleservices{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 38%;
+    color: white;
+    
+}
+.buttonradios{
+    margin-top: 10%;
+    margin-left: 45%;
+    size: 20px;
+    
+}
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+.slides{
+    width: 600%;
+    height: 600px;
+    display: flex
+}
+.slides input{
+    display: none;
+}
+.legenda{
+    visibility: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 5px 5px rgb(29, 29, 29);
+    background-image: linear-gradient(rgb(31, 31, 31),rgb(88, 88, 88));
+   margin-left: 1%;
+   margin-top: -15%;
+   font-size: 36px;
+}
+.slides:hover .legenda{
+    visibility: visible;
+    color: rgb(0, 195, 255);
+    transition: 1s;
+    
+}
+.slide{
+    width: 25%;
+    height: 30%;
+    position: relative;
+}
+.slide img{
+    width: 800px;
+    height: 450px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -130px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: white;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+
+}
+.cont{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.copy{
+    margin-top: 1%;
+    margin-left: 45%;
+    color: white;
+}
+.cont1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.cont2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.menu{
+    width: 900px;
+    height: 100px;    
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    margin-left: 20%;    
+}
+.fone{
+    margin-top: -45%;
+    margin-left: 4%;
+}
+.audiovisual{
+    margin-top: -10%;
+    margin-left: 90%;
+}
+.audiovisual1{
+    margin-top: -65%;
+    margin-left: 85%;
+}
+.audiovisual2{
+    margin-top: -15%;
+    margin-left: 5%;
+}
+.audio{
+    margin-top: 15%;
+    margin-left: 70%;
+}
+.audio1{
+    margin-top: -15%;
+    margin-left: 10%;
+}
+.imglogo{
+    margin-left: 2%;
+    margin-top: -9%;    
+}
+.logo{
+    box-shadow: 5px 5px black;
+    border-style: ridge;
+    border-color: rgb(247, 0, 0);
+    border-radius: 30%;
+
+}
+
+.text1{
+    box-sizing: content-box;
+    background-image: linear-gradient( rgb(43, 43, 43), rgb(88, 88, 88));
+    border-style: inset;
+    border-radius: 10%;
+    width: 800px;
+    height: 500px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    margin-left: 2%;
+    margin-top: -10%;
+    
+}
+.show1{
+    width: 1200px;
+    height: 800px;
+    border-radius: 15%; 
+    border-style: outset;   
+    background-image: linear-gradient(rgb(43, 43, 43),grey);
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.show2{
+    width: 750px;
+   height: 400px;
+    background-image: linear-gradient(rgb(109, 0, 0), rgb(168, 0, 0));
+    border-radius: 10%;
+    border-style: inset;
+    margin-left: 3%;
+    margin-top: 10%;
+    color: white;
+}
+.show3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-top: 3%;
+    margin-left: 40%;   
+}
+.video1{
+    margin-left: 1%;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: blue;
+    box-shadow: 10px 10px rgb(63, 63, 63);
+}
+.video2{
+    margin-left: 1%;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: blue;
+    box-shadow: 10px 10px rgb(63, 63, 63);
+}
+.video3{
+    margin-left: 1%;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: blue;
+    box-shadow: 10px 10px rgb(63, 63, 63);
+}
+.video4{
+    margin-left: 1%;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: blue;
+    box-shadow: 10px 10px  rgb(63, 63, 63);
+}
+.v{
+    border-radius: 10%;
+    
+}
+.v:hover{
+    width: 500px;
+    transition: 2s
+}
+
+.titleabout{
+    margin-left: 38%;
+    margin-top: -8%;
+}
+.about{
+    margin-top: 5%;    
+}
+.imgloc{
+    margin-left: 60%;
+    margin-top: -25%;
+    
+}
+.group1{
+   margin-left: 5%;
+   
+}
+.conteudovideo{
+    margin-left: 4%;
+    margin-top: 2%;
+    
+}
+.button{
+    background-color: rgb(255, 255, 255);
+    border-style: inset; 
+    border-radius: 10%;  
+    box-shadow: 5px 5px black; 
+    font-size: 24px;   
+   width: 150px;
+   height: 80px; 
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+    transition-duration: 1s;
+}
+.button:hover{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    background-color: crimson;
+}
+
+.icon1 img{
+    cursor: pointer;    
+    margin-left: 1800%;
+    margin-top: -20%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+    
+}
+.icon1:hover img{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.icon2 img{
+    cursor: pointer;    
+    margin-left: 45%;   
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+    
+}
+.icon2:hover img{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.icon3 img{
+    cursor: pointer;    
+    margin-left: 55%;
+    
+    position: relative;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+    
+}
+.icon3:hover img{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.endpage{
+    width: 1400px;
+    height: 40px;
+    background-color: grey;
+    margin-top: 3%;
+    border-radius: 10%;
+    border-style: inset;
+    border-color: rgb(0, 17, 255);
+    box-shadow: 50px;
+    background-image:linear-gradient(grey,rgb(201, 201, 201));
+}
+.imgicon:hover {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
