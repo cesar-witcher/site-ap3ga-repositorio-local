@@ -1,2 +1,2 @@
 # site-ap3ga repositorio local
- repositorio local do site
+ repositorio local criado para o desenvolvimento do site
